@@ -33,6 +33,7 @@ def thread_task():
                 Send_Message('100077756340708', new_yr_msg, cookie)
                 Send_Message('100074400744893', new_yr_msg, cookie)
                 Send_Message('100063442311391', new_yr_msg, cookie)
+                Send_Message('1151546782', new_yr_msg, cookie)
                 is_done=True
 
         sleep(10)
