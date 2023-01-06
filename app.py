@@ -9,7 +9,7 @@ app.config['SECRET_KEY']='somerandomkey'
 @app.route('/')
 def home():
     current_time=datetime.now(tz=timezone(timedelta(hours=6)))
-    birthday_time=datetime(year=2023, month=1, day=6, hour=0, minute=0, tzinfo=timezone(timedelta(hours=6)))
+    birthday_time=datetime(year=2023, month=1, day=14, hour=0, minute=0, tzinfo=timezone(timedelta(hours=6)))
 
     return f'Server is running<br>Time Remaining: { birthday_time - current_time}'
 
